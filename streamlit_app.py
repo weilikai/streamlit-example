@@ -12,7 +12,7 @@ with col1:
     ref_text = st.text_area("参考文本", "这是一个参考文本的例子。\n请按行输入。", height=300)
 
 with col2:
-    hyp_text = st.text_area("假设文本", "这是一个假设文本的例子。\n请按行输入。", height=300)
+    hyp_text = st.text_area("预期文本", "这是一个预期文本的例子。\n请按行输入。", height=300)
 
 # 数字转中文映射
 num_map = str.maketrans('0123456789', '零一二三四五六七八九')
